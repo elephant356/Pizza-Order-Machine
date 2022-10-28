@@ -1,10 +1,8 @@
-print("Welcome to Elephant Pizza, Inc. Ltd. Lp. PLLC. MD.!")
+print("Welcome to Python Pizza Deliveries!")
 size = input("What size pizza do you want? S, M, or L ")
 add_pepperoni = input("Do you want pepperoni? Y or N ")
 extra_cheese = input("Do you want extra cheese? Y or N ")
 
-
-#Write your code below this line 👇
 bill = 0
 
 if size == "S":
@@ -24,7 +22,7 @@ elif add_pepperoni == "Y":
 if extra_cheese == "Y":
   bill += 1
 
-else: 
-  bill == 0
+else:
+  print("Please make a selection according to the instructions.")
 
-print (bill)
+print (f"your bill comes to ${bill}.")
